@@ -1,5 +1,4 @@
 # Weather-Data-Analyzer
-# Weather Data Aggregator and Analyzer
 
 ## Overview
 This Python application fetches weather data from a public API, stores it in a local SQLite database, and provides analysis and visualization of weather trends over time.
