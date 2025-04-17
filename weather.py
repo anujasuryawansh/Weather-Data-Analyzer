@@ -2,13 +2,13 @@ import requests
 import sqlite3
 from datetime import datetime
 
-API_KEY = 'aad648111638be9b56452a4f63554964' 
+API_KEY = 'Your_key' 
 LAT = '18.516726'
 LONG = '73.856255'
 url = f'https://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LONG}&appid={API_KEY}&units=metric'
 
 # SQLite database configuration
-DB_NAME = 'C:\\Users\\bhosa\\Desktop\\weatherapi\\weather_data.db'
+DB_NAME = 'C:\\Users\\Desktop\\weatherapi\\weather_data.db'
 
 # Function to fetch weather data from OpenWeatherMap API
 def fetch_weather_data():
